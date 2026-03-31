@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Preetham P | Data Scientist</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#0a0a0a,#111);
+color:#fff;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+position:sticky;
+top:0;
+background:rgba(0,0,0,0.8);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:1.5rem;
+color:#00adb5;
+font-weight:700;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-size:0.95rem;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#00adb5;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+min-height:100vh;
+padding:40px 20px;
+}
+
+.hero img{
+width:200px;
+height:200px;
+border-radius:50%;
+border:4px solid #00adb5;
+box-shadow:0 0 40px #00adb5;
+margin-bottom:25px;
+}
+
+.hero h1{
+font-size:2.5rem;
+color:#00adb5;
+}
+
+.hero h2{
+font-weight:400;
+margin-top:10px;
+opacity:0.8;
+}
+
+.hero p{
+max-width:700px;
+margin-top:20px;
+line-height:1.7;
+text-align:center;
+opacity:0.85;
+}
+
+/* BUTTON */
+
+.btn{
+display:inline-block;
+margin:20px 10px 0;
+padding:12px 28px;
+border-radius:30px;
+background:#00adb5;
+color:#000;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#00fff2;
+transform:translateY(-3px);
+box-shadow:0 0 15px #00adb5;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 60px;
+}
+
+.title{
+text-align:center;
+color:#00adb5;
+margin-bottom:50px;
+font-size:2rem;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.skill{
+padding:10px 20px;
+border-radius:25px;
+background:#111;
+border:1px solid #333;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#00adb5;
+color:#000;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+/* CARDS */
+
+.card{
+background:rgba(255,255,255,0.05);
+border-radius:15px;
+padding:25px;
+border:1px solid rgba(255,255,255,0.1);
+transition:0.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #00adb560;
+}
+
+/* EDUCATION */
+
+.education{
+text-align:center;
+line-height:1.8;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact-icons a{
+font-size:28px;
+margin:10px;
+color:#00adb5;
+transition:0.3s;
+}
+
+.contact-icons a:hover{
+color:#fff;
+transform:scale(1.2);
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+border-top:1px solid #222;
+margin-top:40px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+section{
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<div class="logo">Preetham</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<img src="https://raw.githubusercontent.com/preethampraba/portfolio-img/1d16413e0c282a1846ddbd81b21b9446dfc616eb/preethm%20img.JPG">
+
+<h1>Preetham P</h1>
+<h2>Data Scientist</h2>
+
+<p>
+Aspiring Data Scientist with strong skills in Python, SQL, Machine Learning, and Data Visualization. 
+Passionate about solving real-world problems using data-driven insights and continuously learning new technologies.
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+<a href="#contact" class="btn">Hire Me</a>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+<div class="skill">Python</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">SQL</div>
+<div class="skill">Power BI</div>
+<div class="skill">Pandas</div>
+<div class="skill">NumPy</div>
+<div class="skill">Streamlit</div>
+<div class="skill">Java</div>
+<div class="skill">C++</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+<h2 class="title">Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Loan Approval Prediction</h3>
+<p>Random Forest model to predict loan approval.</p>
+</div>
+
+<div class="card">
+<h3>Student Performance Analysis</h3>
+<p>Analyzed student data using Python & visualization.</p>
+</div>
+
+<div class="card">
+<h3>Home Food Order System</h3>
+<p>Full stack app using React & Spring Boot.</p>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education">
+<h2 class="title">Education</h2>
+
+<div class="education">
+<p><strong>Bachelor of Information Technology</strong></p>
+<p>Sri Krishna College of Technology</p>
+<p>2022 – 2026</p>
+</div>
+</section>
+
+<!-- CERTIFICATES -->
+
+<section id="certificates">
+<h2 class="title">Certificates</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Data Science with Python</h3>
+<p>ML, Data Analysis & Visualization</p>
+</div>
+
+<div class="card">
+<h3>Cloud Computing</h3>
+<p>Cloud architecture fundamentals</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+<h2 class="title">Contact</h2>
+
+<div class="contact">
+
+<p>📧 preethamprabaharan@gmail.com</p>
+<p>📞 +91 6374506354</p>
+
+<div class="contact-icons">
+
+<a href="https://www.linkedin.com/in/preetham-p-20268b2a0/" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/Preethampraba" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Preetham P | Data Scientist</p>
+</footer>
+
+</body>
+</html>
